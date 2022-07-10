@@ -1,0 +1,129 @@
+.padre {
+    background: rgb(255, 0, 99);
+}
+
+.logo {
+    position: relative;
+    left: 0;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 255) !important;
+}
+
+li>a {
+    padding: 20px 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.somos {
+    color: rgb(136, 040, 143);
+}
+
+.cardtitulo {
+    color: rgb(255, 0, 99);
+}
+
+.cardtextbody {
+    color: #808B96;
+    font-size: 18px;
+}
+
+.colorbodymenu {
+    background: rgb(255, 0, 99);
+    color: rgb(255, 255, 255);
+}
+
+.footersubtitulo {
+    color: rgb(255, 0, 99);
+}
+
+.textfooter {
+    color: #808B96;
+}
+
+.estiloA {
+    text-decoration: none;
+}
+
+.colorredes {
+    color: rgb(255, 0, 99);
+}
+
+.derechocol {
+    border-right: 10px solid rgb(136, 040, 143);
+}
+
+.izquierdacol {
+    border-left: 10px solid rgb(136, 040, 143);
+}
+
+.animacionimagen {
+    animation: AnimacionIMAGEN 3s ease 1s infinite normal forwards;
+}
+
+@keyframes AnimacionIMAGEN {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+.entradalogo {
+    animation: AnimacionLogo 2s ease 0s 1 normal forwards;
+}
+
+@keyframes AnimacionLogo {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(45px);
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(24px);
+    }
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(12px);
+    }
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(6px);
+    }
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(4px);
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
